@@ -1,6 +1,6 @@
 #PREGUNTA 3
 library(ggplot2)
-Alldata <- read.csv("C:/Users/azema/OneDrive/Escritorio/BH/Botànica/Pr3/InformePr3Botanica.csv", sep=";", stringsAsFactors=TRUE)
+Alldata <- read.csv("InformePr3Botanica.csv", sep=";", stringsAsFactors=TRUE)
 #Sumo quantes espècies hi ha a cada parcel·la
 S1 <- sum(Alldata$Parcella == "1")
 S2 <- sum(Alldata$Parcella == "2")
